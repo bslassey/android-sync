@@ -198,6 +198,7 @@ public class SyncConfiguration {
    * fresh meta/global record for upload.
    */
   public Set<String> enabledEngineNames;
+  public Set<String> declinedEngineNames;
 
   /**
    * Names of stages to sync <it>this sync</it>, or <code>null</code> to sync
